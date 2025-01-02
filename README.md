@@ -1,4 +1,4 @@
-<div align="center">VXEN.AI - Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.</div>
+<div align="center">AgentX .AI - Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.</div>
 </br>
 
 # Features
@@ -12,7 +12,7 @@
 - 💅 Modern UI
 
 # Getting started
-The simplest way to run VXEN is to use a pre-built Docker image. 
+The simplest way to run AgentX  is to use a pre-built Docker image. 
 
 
 > [!IMPORTANT]
@@ -26,12 +26,12 @@ docker run \
   -e OLLAMA_MODEL=llama2 \
   -p 3000:8080 \
   -v /var/run/docker.sock:/var/run/docker.sock \
-  ghcr.io/semanser/VXEN:latest
+  ghcr.io/semanser/AgentX :latest
 ```
 
 Alternatively, you can create a `.env` file and run the Docker image with the `--env-file` flag. More information can be found [here](https://docs.docker.com/reference/cli/docker/container/run/#env)
 
-Now you can visit [localhost:3000](localhost:3000) in your browser and start using VXEN.
+Now you can visit [localhost:3000](localhost:3000) in your browser and start using AgentX .
 
 <details>
     <summary>Supported environment variables</summary>
